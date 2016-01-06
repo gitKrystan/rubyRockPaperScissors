@@ -1,0 +1,52 @@
+<h1>Welcome to Rock Paper Scissors</h1>
+<h4>Choose rock, paper, or scissors:</h4>
+<form action="/result">
+  <div class="row">
+    <!-- Challenger Radio Buttons -->
+    <div class = "col-xs-6 col-md-3">
+      <h5>Challenger:</h5>
+      <div class="radio">
+         <label>
+           <input type="radio" name="challengerRadios" id="challengerRock" value="rock">
+           Rock
+         </label>
+      </div>
+      <div class="radio">
+         <label>
+           <input type="radio" name="challengerRadios" id="challengerPaper" value="paper">
+           Paper
+         </label>
+      </div>
+      <div class="radio">
+         <label>
+           <input type="radio" name="challengerRadios" id="challengerScissors" value="scissors">
+           Scissors
+         </label>
+      </div>
+    </div>
+
+    <!-- Defender Radio Buttons -->
+    <div class = "col-xs-6 col-md-3">
+      <h5>Defender:</h5>
+      <div class="radio">
+         <label>
+           <input type="radio" name="defenderRadios" id="defenderRock" value="rock">
+           Rock
+         </label>
+      </div>
+      <div class="radio">
+         <label>
+           <input type="radio" name="defenderRadios" id="defenderPaper" value="paper">
+           Paper
+         </label>
+      </div>
+      <div class="radio">
+         <label>
+           <input type="radio" name="defenderRadios" id="defenderScissors" value="scissors">
+           Scissors
+         </label>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn-success">Send</button>
+</form>
